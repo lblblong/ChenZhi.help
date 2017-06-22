@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">郴职助手</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="selectClass">选择课表</string>
+    <string name="queryMark">成绩查询</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+
+    <string name="about_1">郴职助手最初拟定的功能不止查询成绩和课程表。\n在16年9月郴职助手上线了1.0版本，包括了IM即时聊天，社交圈，用户好友系统，兼职信息，购物等功能。这个版本因项目经验不足导致代码耦合度太高后期难以维护而没有选择推广。
+\n经过两个月的学习，这一次，重写郴职助手，只保留两个实用功能，再次上线。</string>
+    <string name="open_source">• Retrofit: github.com/square/retrofit\n• RxJava: github.com/ReactiveX/RxJava\n• RxAndroid: github.com/ReactiveX/RxAndroid\n• NoHttp: github.com/yanzhenjie/NoHttp\n• 郴州职业技术学院官网课表及成绩数据</string>
+    <string name="clause">1.郴职助手信息均来自第三方，郴职助手不能保证信息的真实性，任何由该信息带来的损失，与郴职助手无关。\n2.任何组织或个人觉得郴职助手侵犯了其合法权益均可向郴职助手书面反馈，并提供身份证明、权属证明及详细侵权情况证明，郴职助手在收到上述法律文件，并确认侵权行为后，会尽快移除被控侵权信息。</string>
+    <string name="share_txt">高职院的同学？「郴职助手」你不容错过，看课表查成绩通通有！在这里 http://fir.im/chenz 下载</string>
+
+    <string name="feedback_url">http://form.mikecrm.com/9etVH0</string>
+</resources>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="32dp"
+    android:paddingEnd="24dp"
+    android:paddingStart="24dp"
+    android:paddingTop="32dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:drawableStart="@drawable/about"
+            android:gravity="center"
+            android:text="关于郴职助手"
+            android:textColor="@color/aboutIcon"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/lineColor" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:lineSpacingExtra="3dp"
+            android:text="@string/about_1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/lineColor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:drawableStart="@drawable/dog"
+            android:gravity="center"
+            android:text="很高兴认识你"
+            android:textColor="@color/aboutIcon"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/lineColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="32dp"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center_horizontal"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/lineColor"
+                    android:src="@drawable/img_qq"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:paddingEnd="12dp"
+                    android:paddingStart="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:drawablePadding="12dp"
+                    android:drawableStart="@drawable/qq"
+                    android:gravity="start|center_vertical"
+                    android:text="1162275271"
+                    android:textColor="@color/defaultTextColor"/>
+
+                <TextView
+                    android:paddingEnd="12dp"
+                    android:paddingStart="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:drawablePadding="12dp"
+                    android:drawableStart="@drawable/email"
+                    android:gravity="start|center_vertical"
+                    android:text="1162275271@qq.com"
+                    android:textColor="@color/defaultTextColor"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/lineColor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:drawableStart="@drawable/lab"
+            android:gravity="center"
+            android:text="一切都很值得"
+            android:textColor="@color/aboutIcon"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/lineColor" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:columnCount="2">
+
+            <Button
+                android:id="@+id/btShare"
+                android:paddingEnd="12dp"
+                android:paddingStart="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:drawablePadding="12dp"
+                android:drawableStart="@drawable/share"
+                android:gravity="start|center_vertical"
+                android:text="分享郴职助手"
+                android:textColor="@color/defaultTextColor"/>
+
+            <Button
+                android:id="@+id/btUpData"
+                android:paddingEnd="12dp"
+                android:paddingStart="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:drawablePadding="12dp"
+                android:drawableStart="@drawable/updata"
+                android:gravity="start|center_vertical"
+                android:text="检查软件更新"
+                android:textColor="@color/defaultTextColor" />
+
+            <Button
+                android:id="@+id/btFeedback"
+                android:paddingEnd="12dp"
+                android:paddingStart="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:drawablePadding="12dp"
+                android:drawableStart="@drawable/feedback"
+                android:gravity="start|center_vertical"
+                android:text="意见错误反馈"
+                android:textColor="@color/defaultTextColor" />
+        </GridLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/lineColor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:drawableStart="@drawable/ie"
+            android:gravity="center"
+            android:text="感谢开源的世界和开放的资源"
+            android:textColor="@color/aboutIcon"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/lineColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:autoLink="web"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/open_source"
+            android:textColorLink="@color/cloudyText"
+            android:textSize="12sp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/lineColor"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:drawableStart="@drawable/abouticon"
+            android:gravity="center"
+            android:text="免责声明"
+            android:textColor="@color/aboutIcon"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/lineColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:autoLink="web"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/clause"
+            android:textColorLink="@color/cloudyText"
+            android:textSize="12sp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/lineColor"/>
+
+    </LinearLayout>
+
+</LinearLayout>

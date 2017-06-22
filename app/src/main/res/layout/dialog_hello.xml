@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你好！章冰丽同学 ~\n可以和你交个朋友吗 ๑•̀ㅂ•́๑\n我叫李北龙\n        很想认识你！"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/rainyDark"
+        android:text="*只有你查成绩的时候会有这个弹窗，如果打扰了的话，点拒绝之后就不会有了T T"/>
+
+</LinearLayout>

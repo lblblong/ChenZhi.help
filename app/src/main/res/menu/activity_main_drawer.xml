@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_select_class"
+            android:icon="@drawable/icon_nav_select_class"
+            android:title="@string/selectClass"/>
+        <item
+            android:id="@+id/nav_query_mark"
+            android:icon="@drawable/icon_nav_query_mark"
+            android:title="@string/queryMark"
+            />
+    </group>
+
+    <item android:title="@string/app_name">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/icon_nav_about"
+                android:title="@string/about"/>
+        </menu>
+    </item>
+
+</menu>

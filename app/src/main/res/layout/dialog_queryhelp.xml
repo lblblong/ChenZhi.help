@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="班级学号"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="班级学号格式为：15303103-35。\n前八位为班级号，后两位为你在班级中的序号，中间需用“-”连接。\n注意：序号为1到9的同学前面需要加0，比如2号就该这么填：15303103-02。"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="20dp"
+        android:text="密码"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="初始密码为1或本人身份证的末尾四位。若忘记密码等原因无法登陆，请找班级网管（序号为1的同学）修正或维护你的密码，然后本人再进行登陆。\n若班级网管忘记密码或其他原因无法登陆，请联系教务处。"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="注意：学校可能不定期的修改所有学生密码回到初始密码"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="20dp"
+        android:text="郴职助手"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="因为学校官网数据不时改动，所以郴职助手无法保证获取成绩信息的稳定性，若在网络正常账号密码正常的情况下尝试多次任然无法获取到成绩信息，请下载最新版郴职助手或移步学校官网查询"/>
+
+</LinearLayout>
